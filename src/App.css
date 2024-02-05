@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+   * {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_DancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+.razon_box {
+    max-width: 374px !important;
+    color: black;
+    width: 100% !important;
+    transition: all .3s linear !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.razon_box {
+    border-radius: 17.34px;
+    background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+    backdrop-filter: blur(31.478700637817383px);
+    position: relative;
+    padding: 0.5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.razon_box::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    padding: inherit;
+    background: linear-gradient(306.99deg, rgba(81, 200, 239, 0.5) -13.72%, rgba(122, 245, 122, 0.5) 102.02%);
+    inset: 0;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    pointer-events: none;
 }
 
-.App-link {
-  color: #61dafb;
+.razon_box:hover {
+    box-shadow: 0 0 20px 2px rgba(122, 245, 122, 0.608) !important;
+}
+/* --------------------------Preloader------------------------ */
+.typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(40, end),
+        blink-caret 2s step-end infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
 }
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+.img_animate {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 40000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.card_animate {
+    animation: mymove 1800ms infinite;
+}
+
+@keyframes mymove {
+    50% {
+        transform: translateY(5px);
+    }
+}
+/* ---------------------back-to-top------------------- */
+.backTopBtn {
+      animation: top_btn 2s linear infinite;
+    }
+
+    @keyframes top_btn {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(0.9);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    
