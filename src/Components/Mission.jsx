@@ -1,7 +1,7 @@
 import React from "react";
 import poker1 from "../assests/images/poker1.webp";
 import avitor from "../assests/images/avitor.webp";
-
+import ellipse1 from "../assests/images/ellipse1.png";
 const Mission = () => {
   return (
     <div className=" relative">
@@ -64,6 +64,9 @@ const Mission = () => {
           </div>
           <div className="w-[180px] max-lg:hidden h-[180px] rounded-full bg-[#7AF57A] absolute top-[3%] left-0 z-[3] blur-[140px] animate-pulse"></div>
           <div className="w-[100px] max-lg:hidden h-[100px] rounded-full bg-[#7AF57A] absolute top-[50%] left-[50%] blur-[140px] animate-pulse"></div>
+          <div className="absolute bottom-[-33%] right-[0%] z-[3]">
+            <img src={ellipse1} alt="ellipse1" />
+          </div>
         </div>
       </div>
     </div>

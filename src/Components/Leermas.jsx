@@ -9,7 +9,7 @@ const Leermas = () => {
           data-aos="zoom-in-up"
         >
           <p
-            className="md:text-[32px]  text-[24px] lg:leading-[41.6px] font-normal font-inter text-white text-center mx-auto"
+            className="md:text-[32px]  text-[24px] lg:leading-[41.6px] font-normal font-anton text-white text-center mx-auto"
             data-aos="zoom-in"
           >
             Lanza tu propia plataforma en sólo 2 semanas

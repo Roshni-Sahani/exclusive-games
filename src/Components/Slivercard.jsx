@@ -1,5 +1,6 @@
 import React from "react";
 import casinorole from '../assests/images/casinorole.webp'
+import elli6 from "../assests/images/elli6.png"
 
 const Silvercard = () => {
   return (
@@ -16,8 +17,11 @@ const Silvercard = () => {
         </p>
         <div className="max-w-[1140px] mt-14 bg-gradient2 border-[0.5px] border-solid border-[#839090] border-gradient rounded-[16px] lg:p-[57px_40px_32px_46px] p-[7px_40px_32px_46px]">
           <div className="flex flex-wrap flex-row -mx-3">
-            <div className="lg:w-7/12 w-full px-3 pt-5">
+            <div className="lg:w-7/12 w-full px-3 pt-5 relative">
               <img src={casinorole} alt="casinrole" />
+              <div className="absolute top-[-20%] left-[-15%] z-[3]">
+                <img src={elli6} alt="6" className="hidden lg:block" />
+              </div>
             </div>
             <div className="lg:w-5/12 w-full px-3">
               <h2 className="md:text-[32px] text-[25px] font-normal font-anton text-white">

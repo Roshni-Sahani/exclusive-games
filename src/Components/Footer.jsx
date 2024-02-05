@@ -1,15 +1,15 @@
 import React from "react";
 import footlogo from "../assests/images/footlogo.webp";
+import footelli1 from "../assests/images/footelli1.png"
+import footelli2 from "../assests/images/footelli2.png";
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className="bg-[#000000] md:pb-5 pb-8 pt-10 relative ">
+    <div className="bg-[#000000] md:pb-5 pb-8 pt-10 relative">
       <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
         <div className="flex flex-row flex-wrap -mx-3 md:pb-7">
-          <div
-            className="xl:w-5/12 px-3 w-full pt-7"
-          >
+          <div className="xl:w-5/12 px-3 w-full pt-7">
             <img src={footlogo} alt="footlogo" className="cursor-pointer" />
             <p className="text-[#cccccc] text-base font-inter leading-[25px] lg:max-w-[369px] pt-6 font-medium">
               En Exclusive Games somos un equipo apasionado de personas
@@ -93,9 +93,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div
-            className="xl:w-7/12 px-3 pt-7 md:pt-10 w-full"
-          >
+          <div className="xl:w-7/12 px-3 pt-7 md:pt-10 w-full">
             <div className="flex flex-row flex-wrap">
               <div className="md:w-4/12 w-1/2 flex lg:justi fy-end">
                 <ul>
@@ -235,7 +233,12 @@ const Footer = () => {
       <p className=" text-center text-[#808080] text-base font-inter leading-[25px] pt-5">
         © Juegos exclusivos - Todos los derechos reservados{year}
       </p>
-      {/* <div className="absolute  bottom-0 bg-gradient w-[170px] h-[170px] opacity-[50%] left-[-85px]"></div> */}
+      <div className="absolute left-[0%] bottom-0">
+        <img src={footelli1} alt="footelli1" />
+      </div>
+      <div className="absolute right-[0%] bottom-0">
+        <img src={footelli2} alt="footelli1" />
+      </div>
     </div>
   );
 };

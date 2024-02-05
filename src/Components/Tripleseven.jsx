@@ -3,9 +3,11 @@ import tripleseven from "../assests/images/tripleseven.webp";
 import bulbimg from "../assests/images/bulb-img.webp";
 import signimg from "../assests/images/signimg.webp";
 import peopleimg from "../assests/images/peopleimg.webp";
+import ellipse4 from "../assests/images/ellipse4.png";
+import elli5 from "../assests/images/elli5.png"
 const Tripleseven = () => {
   return (
-    <div>
+    <div className="relative lg:mt-[150px] mt-70px">
       <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3">
@@ -76,6 +78,12 @@ const Tripleseven = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute top-[-100%] left-[0%]">
+        <img src={ellipse4} alt="ellipse4" className="hidden lg:block" />
+      </div>
+      <div className="absolute bottom-[-100%] right-[0%]">
+        <img src={elli5} alt="elli4" className="hidden lg:block" />
       </div>
     </div>
   );

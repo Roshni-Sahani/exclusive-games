@@ -75,11 +75,11 @@ function App() {
               </div>
               <Vivomap />
             </div>
-            <Casion />
+                <Casion />
+                 <Tripleseven />
             <Slivercard />
             <Luxarycard />
             <Plantinumcard />
-            <Tripleseven />
             <Ellos />
             <Faq />
             <Leermas />
