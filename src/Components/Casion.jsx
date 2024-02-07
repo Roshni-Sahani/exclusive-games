@@ -3,12 +3,15 @@ import nightimg from "../assests/images/nightimg.webp";
 
 const Casion = () => {
   return (
-    <div>
+    <div id="Ofertas">
       <div className="max-lg:bg-white lg:bg-[url(./assests/images/bgwhite2.webp)] bg-size bg-center bg-no-repeat">
         <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
           <div className="flex flex-wrap flex-row -mx-3 lg:py-[300px] py-9">
-            <div className="md:w-1/2 px-3 w-full" data-aos="zoom-in-down">
-              <p className="text-black font-anton lg:text-[48px] font-normal leading-[57.6px] text-[36px]">
+            <div
+              className="md:w-1/2 px-3 w-full flex flex-col justify-center"
+              data-aos="zoom-in-down"
+            >
+              <p className="text-black font-anton lg:text-[48px] font-normal leading-[57.6px] text-[36px] pb-4">
                 Por qué elegirnos
               </p>
               <p className="font-inter leading-[25.6px] text-base font-medium text-[#334349] lg:max-w-[526px] pb-4">

@@ -7,11 +7,11 @@ const Luxarycard = () => {
   return (
     <div>
       <div
-        className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6 sm:py-12 pb-12 pt-0"
+        className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6 sm:p y-12  pt-0"
         data-aos="zoom-out"
       >
         
-        <div className="max-w-[1140px] lg:mt-14 bg-gradient2 border-[0.5px] border-solid border-[#839090] border-gradient rounded-[16px] lg:p-[57px_40px_32px_46px] p-[29px_40px_6px_46px] relative">
+        <div className="max-w-[1140px] bg-gradient2 border-[0.5px] border-solid border-[#839090] border-gradient rounded-[16px] lg:p-[57px_40px_32px_46px] p-[29px_40px_6px_46px] relative">
           <div className="bg-[url(./assests/images/luxurybg.webp)]">
             <h2 className="md:text-[32px] text-[25px] font-normal font-anton text-white text-center mx-auto lg:pb-4 pb-2">
               Luxury

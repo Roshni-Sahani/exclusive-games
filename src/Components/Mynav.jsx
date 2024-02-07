@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logo from "../assests/images/logo.webp";
-// import btnline from "../assests/images/btnline.webp";
 
 const Mynav = () => {
   const [show, setshow] = useState(true);
@@ -30,44 +29,44 @@ const Mynav = () => {
                   show ? "right-[-100%]" : "right-0"
                 }`}
               >
-                <li>
+                <li onClick={nav}>
                   <a
-                    href=""
+                    href="#head"
                     className="font-inter font-medium text-base leading-[25.6px] text-[#d3dadb] hover:text-white"
                   >
                     Hogar
                   </a>
                 </li>
-                <li>
+                <li onClick={nav}>
                   <a
-                    href=""
+                    href="#mission"
                     className="font-inter font-medium text-base leading-[25.6px] text-[#d3dadb] hover:text-white"
                   >
                     Misión
                   </a>
                 </li>
-                <li>
+                <li onClick={nav}>
                   <a
-                    href=""
+                    href="#slot"
                     className="font-inter font-medium text-base leading-[25.6px] text-[#d3dadb] hover:text-white"
                   >
                     Tragamonedas
                   </a>
                 </li>
-                <li>
+                <li onClick={nav}>
                   <a
-                    href=""
+                    href="#Por qué elegirnos"
                     className="font-inter font-medium text-base leading-[25.6px] text-[#d3dadb] hover:text-white"
                   >
                     Por qué elegirnos
                   </a>
                 </li>
-                <li>
+                <li onClick={nav}>
                   <a
-                    href=""
+                    href="#Ofertas"
                     className="font-inter font-medium text-base leading-[25.6px] text-[#d3dadb] hover:text-white"
                   >
-                    Hogar
+                    Ofertas
                   </a>
                 </li>
                 <button className="py-3 px-[46px] bg-transparent border block sm:hidden border-solid border-white after:content-[url(./assests/images/btnline.webp)] after:absolute relative after:bottom-[-30%] after:left-[-5%] rounded-full  text-base leading-[25.6px] text-white font-inter font-bold hover:bg-white transition-all duration-500">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="md:pt-[140px] md:pb-[222px] py-[90px]" data-aos="zoom-out">
+    <div className="md:pt-[140px] md:pb-[222px] py-[90px]" data-aos="zoom-out" id="head">
       <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
         <p className="text-white md:text-[72px] text-[42px] font-normal md:leading-[86.4px] text-center mx-auto max-w-[505px] font-anton">
           Exclusive Games. Pasión por ganar

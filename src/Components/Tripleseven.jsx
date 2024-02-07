@@ -7,7 +7,7 @@ import ellipse4 from "../assests/images/ellipse4.png";
 import elli5 from "../assests/images/elli5.png"
 const Tripleseven = () => {
   return (
-    <div className="relative lg:mt-[150px] mt-70px">
+    <div className="relative lg:mt-[150px] mt-[50px]">
       <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3">

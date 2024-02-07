@@ -8,11 +8,8 @@ import Slots from "./Slots";
 
 const Section3 = () => {
   return (
-    <div>
-      <div
-        className="bg-[#00141B] max-lg:bg-white lg:bg-[url(./assests/images/white-bg1.webp)] bg-size bg-center bg-no-repeat lg:py-[243px] md:py-[70px] py-[40px]"
-        data-aos="fade-right"
-      >
+    <div id="slot">
+      <div className="bg-[#00141B] max-lg:bg-white lg:bg-[url(./assests/images/white-bg1.webp)] bg-size bg-center bg-no-repeat lg:py-[243px] md:py-[70px] py-[40px]">
         <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
           <h2 className=" font-anton text-[#00141B] lg:text-5xl  text-center lg:mb-[60px] text-[30px] mb-5">
             Nuestros Atributos de Marca

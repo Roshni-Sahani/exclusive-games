@@ -4,7 +4,7 @@ import avitor from "../assests/images/avitor.webp";
 import ellipse1 from "../assests/images/ellipse1.png";
 const Mission = () => {
   return (
-    <div className=" relative">
+    <div className=" relative" id="mission">
       <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
         <div>
           <div className="flex flex-wrap flex-row lg:pt-[74px] pt-5 lg:pb-[100px] sm:pb-[70px] pb-[50px]">

@@ -231,7 +231,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-[#191919]"></div>
       <p className=" text-center text-[#808080] text-base font-inter leading-[25px] pt-5">
-        © Juegos exclusivos - Todos los derechos reservados{year}
+        © Juegos exclusivos - Todos los derechos reservados {year}
       </p>
       <div className="absolute left-[0%] bottom-0">
         <img src={footelli1} alt="footelli1" />

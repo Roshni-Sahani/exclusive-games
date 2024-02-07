@@ -4,7 +4,7 @@ import ellipse2 from "../assests/images/ellipse2.png"
 import elli3 from "../assests/images/elli3.png"
 const Jackpotsec = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="Por qué elegirnos">
       <div className=" lg:pt-[150px] sm:pt-[70px] pt-[50px]">
         <div className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6">
           <div className="flex flex-wrap -mx-3 flex-row">

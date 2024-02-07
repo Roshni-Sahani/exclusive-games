@@ -31,7 +31,6 @@ const Slots = () => {
     <div
       key={i}
       className="lg:w-1/3 px-3  sm:w-1/2 w-full flex justify-center group dur ation-500 mb-6"
-      data-aos="fade-down-right"
     >
       <div
         className="max-w-[364px] rounded-lg w-full h-[265px] overflow-hidden relative border border-solid border-transparent group-hover:border-[#64DDB9] duration-500 transition-all ease-linear"
@@ -46,7 +45,7 @@ const Slots = () => {
     </div>
   ));
   return (
-    <div className="lg:mt-[150px] mt-[50px]">
+    <div className="lg:mt-[150px] mt-[50px] relative z-20">
       <h2 className=" font-anton lg:text-5xl text-[36px] text-center leading-[57.6px] text-[#00141B] font-normal  lg:mb-4">
         Slots
       </h2>

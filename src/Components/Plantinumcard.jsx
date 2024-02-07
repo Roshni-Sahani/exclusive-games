@@ -4,10 +4,10 @@ import barseven from "../assests/images/barseven.webp";
 const Plantinumcard = () => {
   return (
     <div
-      className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6 md:mb-[150px] sm:mb-[70px] mb-[50px]"
+      className="xl:max-w-[1140px] mx-auto xl:px-3 container px-6 md:mb-[65px] sm:mb-[70px] mb-[50px]"
       data-aos="zoom-out-up"
     >
-      <div className="bg-[linear-gradient(307deg,#51c8ef0f_-13.72%,#7af57a0f_102.02%)] rounded-[16px] border-[#839090] border-[0.5px] p-[32px] sm:p-[31px_40px_46px_50px] sm:mt-[60px] mt-0">
+      <div className="bg-[linear-gradient(307deg,#51c8ef0f_-13.72%,#7af57a0f_102.02%)] rounded-[16px] border-[#839090] border-[0.5px] p-[32px] sm:p-[31px_40px_46px_50px] mt-[60px] mt-0">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-5/12 w-full max-lg:px-3 lg:pe-3 lg:ps-5 flex justify-center flex-col">
             <h2 className=" font-anton font-normal text-[32px] leading-[41px] text-white">
@@ -64,11 +64,6 @@ const Plantinumcard = () => {
                 alt="threeseven"
                 className=" w-full xl:h-[419px] md:max-w-[601px] max-w-[430px] "
               />
-              {/* <img
-                  src={roleafter}
-                  alt="roleafter"
-                  className=" mix-blend-multiply bg-blend-multiply "
-                /> */}
             </div>
           </div>
         </div>
